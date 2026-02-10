@@ -158,7 +158,7 @@ This dashboard was engineered as an Executive Monitor, optimized to reduce time-
   - Insight: Automobiles dominate the positive range (green), while Printing, Paper, and Soda Ash anchor the negative tail (red), confirming structural divergence.
 
 
-  ![Sector Contribution to Index](Images/Sector Contribution to Index.png)
+  ![Sector Contribution to Index](Images/sector_contribution_to_index.png)
   *Figure 1: Sectoral contribution revealing K-shaped recovery*
 
  <br><br>
@@ -172,7 +172,7 @@ This dashboard was engineered as an Executive Monitor, optimized to reduce time-
     - Top-Right: Engines of growth (high weight, high growth)
     - Top-Left: Code Red sectors (high weight, negative growth) — early GDP risk signals even when headline growth appears strong.  
 
-  ![Risk vs Relevance Matrix](Images/Risk vs Relevance Matrix.png)
+  ![Risk vs Relevance Matrix](Images/risk_vs_relevance_matrix.png)
   *Figure 2: Risk vs Relevance Matrix*
 
  <br><br>
@@ -188,7 +188,7 @@ This dashboard was engineered as an Executive Monitor, optimized to reduce time-
   - Sector slicer (e.g., Food, Automotive, Textiles) dynamically filters all visuals, instantly recalculating KPIs, charts, and the audit matrix.
 
 ![Complete Dashboard](Images/Dashboard.png)
-*Figure 4: The Complete LSM Dashboard*
+Figure 4: The Complete LSM Dashboard
  <br><br>
 ---
 
