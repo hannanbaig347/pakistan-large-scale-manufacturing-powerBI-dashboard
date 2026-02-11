@@ -88,8 +88,8 @@ This project answers:
 
 ## 4. Tech Stack
 
-- **Power BI** – Dashboard design, data modeling, DAX analytics  
-- **Power Query (Excel)** – ETL, cleaning, normalization  
+- **Power BI** – Dashboard design, data modeling
+- **Power Query)** – ETL, cleaning, normalization  
 - **DAX (Data Analysis Expressions)** – Custom metrics, weighted logic  
 - **Excel** – Raw data inspection and transformation 
 - **Python** - Exploratory Data Analysis (EDA) 
@@ -146,7 +146,6 @@ SUMX(
 - Industrial inputs are contracting quietly  
 - Steel decline despite cement growth signals **supply-chain stress**  
 - Printing and paper show persistent negative impact  
-- Growth driven by **base effects**, not broad expansion  
 
 This disconnect is what I call:
 
@@ -177,6 +176,12 @@ This dashboard was engineered as an Executive Monitor, optimized to reduce time-
   <em>Sectoral contribution revealing K-shaped recovery</em>
 </p>
 
+  <p align="center">
+  <img src="Images/sector_contribution_to_index_2.png" alt="Sector Contribution">
+  <br>
+  <em>Sectoral contribution revealing K-shaped recovery</em>
+</p>
+
  <br><br>
 - **Visual 2: Risk vs Relevance Matrix**
 
@@ -186,13 +191,16 @@ This dashboard was engineered as an Executive Monitor, optimized to reduce time-
     - Y-axis: Official Weightage (Economic Volume)
   - Interpretation:
     - Top-Right: Engines of growth (high weight, high growth)
-    - Top-Left: Code Red sectors (high weight, negative growth) — early GDP risk signals even when headline growth appears strong.  
+    - Top-Left: Code Red sectors (high weight, negative growth) — early GDP risk signals even when headline growth appears strong.
+    - Center Cluster: The "Stability Backbone" — Sectors with consistent demand. They show modest change because people buy the same amount every year, regardless of economic booms or busts
 
 <p align="center">
     <img src = "Images/risk_vs_relevance_matrix.png" alt="Risk vs Relevance">
     <br>
     <em>Risk vs Relevance Matrix </em>
 </p>
+
+
 
 <br><br>
 - **Visual 3: The Audit Matrix**
