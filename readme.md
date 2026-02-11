@@ -54,7 +54,8 @@ This project was built with clear, practical goals:
   - [8. Dashboard Insights](#8-dashboard-insights)
   - [9. Real-World Impact](#9-real-world-impact)
   - [10. How to Run the Project](#10-how-to-run-the-project)
-  - [11. Author](#11-author)
+  - [11. Future Enhancements](#11-future-enhancements)
+  - [12. Author](#12-author)
 
 
 ---
