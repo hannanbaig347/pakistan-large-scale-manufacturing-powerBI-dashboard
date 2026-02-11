@@ -6,7 +6,7 @@
 # Pakistan Large Scale Manufacturing (LSM) Power BI Dashboard  
 ### July–November, FY 2024–25 & 2025–26  
 
-*A decision-grade Power BI dashboard built for real-world economic monitoring*
+*A structured analytical Power BI dashboard built for real-world economic monitoring*
 
 ---
 
@@ -32,7 +32,7 @@ This project was built with clear, practical goals:
 
 - Convert raw, messy government data into a clean, scalable analytical model  
 - Move beyond misleading “headline growth” to measure **true economic contribution**  
-- Design a **single-page executive dashboard** delivering insights 
+- Design a **single-page dashboard** delivering insights 
 - Simulate analytical rigor expected in **public-sector and enterprise analytics roles**  
 - Demonstrate readiness for **real-world analytics**
 
@@ -122,13 +122,21 @@ Government data is rarely analysis-ready.
 
 ## 6. Model
 
-### Weighted Impact Model
+### The Logic: Weighted Impact vs. Simple Growth
 
-- Uses official Ministry weightages  
-- Measures **contribution**, not just growth  
-- Comparable across industries  
-- Policy-relevant and decision-safe  
+Standard growth rates can be misleading. A **50% increase** in a small industry (like *Footballs*) often looks better than a **2% increase** in a massive industry (like *Textiles*), even though the latter contributes more to GDP.
 
+To solve this, I engineered a **Weighted Impact** metric using `SUMX`. This iterates through every industry to calculate its specific contribution before aggregating the total.
+
+**The DAX Formula:**
+
+```dax
+Weighted Impact = 
+SUMX(
+    Dim_Items, 
+    [Growth %] * Dim_Items[Weightage]
+)
+```
 ---
 
 ## 7. Key Business Insights
@@ -152,7 +160,7 @@ A common failure in government reporting is the creation of a **wall of data** �
 This dashboard was engineered as an Executive Monitor, optimized to reduce time-to-insight to just few seconds.
 
 
-- Displays **Net Weighted Growth (2.67)** — engineered to avoid aggregating incompatible units  
+- Displays **Net Weighted Growth Contribution (2.67)** — engineered to avoid aggregating incompatible units  
 - Automatically identifies:
   - **Top Growth Driver** (currently: Cars)  
   - **Lowest Contributor**  
@@ -197,13 +205,6 @@ This dashboard was engineered as an Executive Monitor, optimized to reduce time-
 </p>
  <br><br>
 
-<p align="center">
-    <img src="Images/Dashboard.png" alt="Dashboard">
-    <br>
-    <em>Dashboard</em>
-</p>
- <br><br>
----
 
 ## 9. Real-World Impact
 
@@ -230,14 +231,27 @@ No external APIs or credentials required.
 
 ---
 
-## 11. Author
+
+## 11. Future Enhancements
+
+| Feature | Description | Business Value |
+| :--- | :--- | :--- |
+| **📅 Multi-Year Analysis** | Extend the model across multiple fiscal years to distinguish **structural growth** from short-term rebounds. | Identifies long-term winners versus volatile sectors. |
+| **📊 Sector Contribution Breakdown** | Calculate the exact percentage share of total growth driven by each industry (e.g., *"Auto sector contributed 60% of total growth"*). | Quantifies **dominance** and dependency risk. |
+| **🚨 Early Warning Indicators** | Implement rule-based alerts for high-weight sectors showing repeated negative growth or sharp reversals. | Enables proactive policy intervention **before** headline risks materialize. |
+| **🧪 Basic Scenario Testing** | Simulate economic impact if a major growth driver slows down or a key sector contracts. | Tests the resilience of the overall index against **single-sector shocks**. |
+| **🌍 Macroeconomic Linkages** | Integrate external economic drivers such as **Inflation, Exchange Rates, and Energy Costs**. | Provides broader **causal context** for industrial performance. |
+
+
+---
+## 12. Author
 
 **Hannan Baig**  
 Data Analyst | Power BI | SQL | Python  
 
 - **Email:** muhammadhannanbaig@gmail.com  
 - **GitHub:** https://github.com/hannanbaig347  
-- **LinkedIn:** ['Hannan Baig'](https://www.linkedin.com/in/hannan-baig-b10320325/)
+- **LinkedIn:** [Hannan Baig](https://www.linkedin.com/in/hannan-baig-b10320325/)
  
 If you’re a recruiter, analyst, or policymaker reading this—thank you for your time.  
 
