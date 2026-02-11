@@ -1,3 +1,8 @@
+
+![Complete Dashboard](Images/Dashboard.png)
+ <br><br>
+
+
 # Pakistan Large Scale Manufacturing (LSM) Power BI Dashboard  
 ### July–November, FY 2024–25 & 2025–26  
 
@@ -9,7 +14,8 @@
 
 This project is a real-world simulation of how industrial performance is monitored at the government level in Pakistan.
 
-I built an interactive **Power BI dashboard** using official **Large Scale Manufacturing (LSM) July–November, FY 2024–25 & 2025–26** data published by the **Ministry of Industries & Production**. 
+I built an interactive **Power BI dashboard** using official [**Large Scale Manufacturing (LSM) July–November, FY 2024–25 & 2025–26 data published by the Federal Ministry of Industries & Production, Pakistan**](https://moip.gov.pk/SiteImage/Misc/files/Growth%20Rate%20of%2031%20LSM%20items%20for%20the%20period%20July-November%2c2025-26.pdf).
+
 
 At its core, this project answers one key question:
 
@@ -17,6 +23,7 @@ At its core, this project answers one key question:
 
 The answer is more nuanced than headline growth numbers suggest.
 
+**[READ THE FULL REPORT (PDF)](/Report.pdf)**
 ---
 
 ## 2. Objectives
@@ -36,17 +43,15 @@ This project was built with clear, practical goals:
     - [July–November, FY 2024–25 \& 2025–26](#julynovember-fy-202425--202526)
   - [1. Project Overview](#1-project-overview)
   - [2. Objectives](#2-objectives)
-  - [Table of Contents](#table-of-contents)
   - [3. The Business Problem: Why This Matters](#3-the-business-problem-why-this-matters)
   - [4. Tech Stack](#4-tech-stack)
   - [5. Data Preparation \& Feature Engineering](#5-data-preparation--feature-engineering)
     - [Key Challenges](#key-challenges)
     - [What I Did](#what-i-did)
   - [6. Model](#6-model)
-    - [Weighted Impact Model (Final Choice)](#weighted-impact-model-final-choice)
+    - [Weighted Impact Model (Final Choice)](#weighted-impact-model)
   - [7. Key Business Insights](#7-key-business-insights)
   - [8. Dashboard Insights](#8-dashboard-insights)
-  - [](#)
   - [9. Real-World Impact](#9-real-world-impact)
   - [10. How to Run the Project](#10-how-to-run-the-project)
   - [11. Author](#11-author)
@@ -117,7 +122,7 @@ Government data is rarely analysis-ready.
 
 ## 6. Model
 
-### Weighted Impact Model (Final Choice)
+### Weighted Impact Model
 
 - Uses official Ministry weightages  
 - Measures **contribution**, not just growth  
@@ -158,8 +163,11 @@ This dashboard was engineered as an Executive Monitor, optimized to reduce time-
   - Insight: Automobiles dominate the positive range (green), while Printing, Paper, and Soda Ash anchor the negative tail (red), confirming structural divergence.
 
 
-  ![Sector Contribution to Index](Images/sector_contribution_to_index.png)
-  *Figure 1: Sectoral contribution revealing K-shaped recovery*
+  <p align="center">
+  <img src="Images/sector_contribution_to_index.png" alt="Sector Contribution">
+  <br>
+  <em>Sectoral contribution revealing K-shaped recovery</em>
+</p>
 
  <br><br>
 - **Visual 2: Risk vs Relevance Matrix**
@@ -172,23 +180,28 @@ This dashboard was engineered as an Executive Monitor, optimized to reduce time-
     - Top-Right: Engines of growth (high weight, high growth)
     - Top-Left: Code Red sectors (high weight, negative growth) — early GDP risk signals even when headline growth appears strong.  
 
-  ![Risk vs Relevance Matrix](Images/risk_vs_relevance_matrix.png)
-  *Figure 2: Risk vs Relevance Matrix*
+<p align="center">
+    <img src = "Images/risk_vs_relevance_matrix.png" alt="Risk vs Relevance">
+    <br>
+    <em>Risk vs Relevance Matrix </em>
+</p>
 
- <br><br>
-
-
+<br><br>
 - **Visual 3: The Audit Matrix**
   - Government-style ledger with columns Production (2024-2025) → Production (2025-2026) → Growth % → Weighted Impact → Performance Flag enabling full traceability from raw volumes to final growth figures.
 
-![Audit Matrix](Images/Matrix.png)
-*Figure 3: Audit Matrix*
+<p align="center">
+    <img src="Images/Matrix.png" alt="Matrix">
+    <br>
+    <em> The Audit Matrix</em>
+</p>
  <br><br>
-- **Interaction Layer**: 
-  - Sector slicer (e.g., Food, Automotive, Textiles) dynamically filters all visuals, instantly recalculating KPIs, charts, and the audit matrix.
 
-![Complete Dashboard](Images/Dashboard.png)
-Figure 4: The Complete LSM Dashboard
+<p align="center">
+    <img src="Images/Dashboard.png" alt="Dashboard">
+    <br>
+    <em>Dashboard</em>
+</p>
  <br><br>
 ---
 
@@ -224,7 +237,7 @@ Data Analyst | Power BI | SQL | Python
 
 - **Email:** muhammadhannanbaig@gmail.com  
 - **GitHub:** https://github.com/hannanbaig347  
-- **LinkedIn:** ['Hannan Baig'] (https://www.linkedin.com/in/hannan-baig-b10320325/)
+- **LinkedIn:** ['Hannan Baig'](https://www.linkedin.com/in/hannan-baig-b10320325/)
  
 If you’re a recruiter, analyst, or policymaker reading this—thank you for your time.  
 
