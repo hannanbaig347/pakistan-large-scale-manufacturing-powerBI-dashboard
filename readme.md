@@ -244,11 +244,11 @@ No external APIs or credentials required.
 
 | Feature | Description | Business Value |
 | :--- | :--- | :--- |
-| **📅 Multi-Year Analysis** | Extend the model across multiple fiscal years to distinguish **structural growth** from short-term rebounds. | Identifies long-term winners versus volatile sectors. |
-| **📊 Sector Contribution Breakdown** | Calculate the exact percentage share of total growth driven by each industry (e.g., *"Auto sector contributed 60% of total growth"*). | Quantifies **dominance** and dependency risk. |
-| **🚨 Early Warning Indicators** | Implement rule-based alerts for high-weight sectors showing repeated negative growth or sharp reversals. | Enables proactive policy intervention **before** headline risks materialize. |
-| **🧪 Basic Scenario Testing** | Simulate economic impact if a major growth driver slows down or a key sector contracts. | Tests the resilience of the overall index against **single-sector shocks**. |
-| **🌍 Macroeconomic Linkages** | Integrate external economic drivers such as **Inflation, Exchange Rates, and Energy Costs**. | Provides broader **causal context** for industrial performance. |
+| **Multi-Year Analysis** | Extend the model across multiple fiscal years to distinguish **structural growth** from short-term rebounds. | Identifies long-term winners versus volatile sectors. |
+| **Sector Contribution Breakdown** | Calculate the exact percentage share of total growth driven by each industry (e.g., *"Auto sector contributed 60% of total growth"*). | Quantifies **dominance** and dependency risk. |
+| **Early Warning Indicators** | Implement rule-based alerts for high-weight sectors showing repeated negative growth or sharp reversals. | Enables proactive policy intervention **before** headline risks materialize. |
+| **Basic Scenario Testing** | Simulate economic impact if a major growth driver slows down or a key sector contracts. | Tests the resilience of the overall index against **single-sector shocks**. |
+| **Macroeconomic Linkages** | Integrate external economic drivers such as **Inflation, Exchange Rates, and Energy Costs**. | Provides broader **context** for industrial performance. |
 
 
 ---
