@@ -262,6 +262,3 @@ Data Analyst | Power BI | SQL | Python
 - **GitHub:** https://github.com/hannanbaig347  
 - **LinkedIn:** [Hannan Baig](https://www.linkedin.com/in/hannan-baig-b10320325/)
  
-If you’re a recruiter, analyst, or policymaker reading this—thank you for your time.  
-
-I’m still learning, still improving, and fully committed to doing this work right.
